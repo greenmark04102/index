@@ -1,0 +1,507 @@
+@charset "utf-8";
+
+/* google fugaz one */
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+
+/* google nanumgothic */
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+/* google do hyeon */
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    word-break: keep-all;
+    /* outline: 1px solid red; */
+}
+
+:root {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Fugaz One', cursive;
+    font-family: 'Do Hyeon', sans-serif;
+  --swiper-theme-color: rgb(255, 255, 117);
+
+  }
+
+
+
+body {
+  min-width: 1280px;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+/* footer {
+  width: 100%;
+  background: #1F2124;
+  height: 0;
+  overflow: hidden;
+  transition: height 0.1s;
+}
+footer.on {
+  height: 100px;
+  transition: height 0.1s;
+} */
+ul,
+li {
+  list-style: none;
+}
+/* swiper theme */
+/* :root {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 14px;
+  color: #fff;
+  --swiper-theme-color: rgb(255, 255, 117);
+} */
+.swiper-pagination-bullet {
+  background: #f1f1f1;
+  opacity: .5;
+}
+.swiper-pagination-bullet-active {
+  opacity: 1;
+  background: var(--swiper-pagination-color, var(--swiper-theme-color)) !important;
+}
+section.scroll_v {
+  height: 100vh;
+}
+section.scroll_v .swiper-pagination-bullets,
+section.scroll_v .swiper-pagination-vertical.swiper-pagination-bullets,
+section.scroll_v .swiper-vertical > .swiper-pagination-bullets{
+  right: 18px;
+}
+section.scroll_v .swiper-button-prev {
+  right: 10px;
+  left: unset;
+  transform: rotate(90deg);
+  margin: -100px 0 0 0;
+}
+section.scroll_v .swiper-button-next {
+  transform: rotate(90deg);
+  margin: 50px 0 0 0;
+}
+
+.swiper-container.swiper_h {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  color: #222;
+}
+
+section.scroll_v .sec01 {
+  /* background: #F6B352; */
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+section.scroll_v .sec01 h1 {
+  font-family: 'fugaz One';
+  font-size: 100px;
+}
+
+section.scroll_v .sec01 > h1 {
+  color: #F8FC27;
+    position: absolute;
+    bottom: 0;
+}
+
+
+section.scroll_v .sec01 > h3 {
+  font-family: 'fugaz One';
+    font-size: 30px;
+}
+
+section.scroll_v .sec01 div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* sec02 가로캐러셀 */
+section.scroll_v .sec02 {
+  /* background: #F68657; */
+  height: 100vh;
+  /* text-align: center;
+  padding: 100px 200px; */
+  width: 1440px;
+  margin: 0 auto;
+}
+
+section.scroll_v .sec02 .inner {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+section.scroll_v .sec02 h1 {
+  font-family: 'fugaz One';
+  font-size: 100px;
+  color: #F8FC27;
+  padding: 150px 20px 50px 20px;
+}
+
+section.scroll_v .sec02 h2 {
+  font-family: 'fugaz One';
+  font-size: 50px;
+}
+
+.sec02 p {
+  font-family: 'Do Hyeon';
+  font-size: 30px;
+}
+
+.sec02 .g2 div:nth-of-type(1) p {
+  font-family: 'fugaz One';
+}
+
+.sec02 .g2 div:nth-of-type(2) {
+  font-size: 25px;
+
+}
+
+section.scroll_v .sec02 .g1 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.sec02 .g1 div p:nth-of-type(2) {
+  font-size: 20px;
+}
+
+.sec02 .g1 div p:nth-of-type(3){
+  padding-top: 10px;  
+}
+
+section.scroll_v .sec02 img {
+  width: 350px;
+}
+
+section.scroll_v .sec02 .g2 {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  gap: 50px;
+}
+
+section.scroll_v .sec03 {
+  background-color: #E7E7E7;
+  display: flex;
+  justify-content: center;
+}
+/* sec03 애니메이션 */
+/* section.scroll_v .sec03 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+section.scroll_v .sec03 .inner {
+  width: 100%;
+  flex-direction: row;
+  display: flex;
+}
+
+section.scroll_v .sec03 > div {
+  height: 1024px;
+}
+
+section.scroll_v .sec03 .side {
+  width: 50%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.3);
+}
+section.scroll_v .sec03 h1 {
+  font-size: 80px;
+  color: #105333;
+  font-family: 'fugaz One';
+  height: 86px;
+}
+section.scroll_v .sec03 .g1 {
+  margin: 0 auto;
+  width: 248px;
+  padding-top: 50px;
+}
+section.scroll_v .sec03 .g1 p {
+  font-size: 35px;
+  color: #105333;
+  font-family: 'fugaz One';
+  width: 248px;
+  text-align: center;
+}
+section.scroll_v .sec03 .g2 {
+  position: absolute;
+  bottom: 65px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+section.scroll_v .sec03 .g2 > div:first-child {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  font-family: 'Do Hyeon';
+  font-size: 20px;
+  padding: 0 30px;
+}
+
+section.scroll_v .sec03 .g2 > div:first-child p {
+  background: rgba(255, 255, 255, 0.4);
+  box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  padding: 3px 8px;
+}
+section.scroll_v .sec03 .color{
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+
+}
+.sec03 .circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+section.scroll_v .sec03 .circle:first-child {
+  background: #000;
+}
+section.scroll_v .sec03 .circle:nth-of-type(2) {
+  background: #F6BE75;
+}
+
+section.scroll_v .sec03 .circle:nth-of-type(3){
+  background: #C56A8F;
+}
+section.scroll_v .sec03 .circle:nth-of-type(4){
+  background: #5A00CE;
+}
+ .sec03 .g2 > div:nth-of-type(3) {
+  padding: 0 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.sec03 .g2 > div:nth-of-type(4) {
+  width: 400px;
+  padding: 0 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+ .sec03 .g2 h3 {
+  font-family: 'fugaz One';
+  font-size: 30px;
+}
+.sec03 .g2 > div:nth-of-type(4) p {
+  font-family: 'Do Hyeon';
+  font-size: 18px;
+  line-height: 28px;
+}
+.sec03 .view {
+  width: 100%;
+}
+
+.main {
+  margin: 0 auto;
+  max-width: 620px;
+}
+
+.main .viewport {
+  transition: background-position 5s ease;
+  background-position: 0 0;
+  background-size: 100% auto;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.main:hover .viewport {
+  background-position: 0 100%;
+}
+
+.main .viewport:after {
+  background: radial-gradient(circle at right bottom, transparent 75%, rgba(255, 255, 255, 0.05) 75%, transparent);
+  bottom: 0;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.sub {
+  /* padding: 4% 6%; */
+  margin: 0 auto;
+  max-width: 620px;
+}
+
+.screen {
+  /* background: #000; */
+  /* border-radius: 3% 3% 0 0 / 5% 5% 0 0; */
+  /* for aspect ratio */
+  position: relative;
+  /* width: 100%; */
+}
+
+.screen:before {
+  content: "";
+  display: block;
+  /* for aspect ratio ~3:5 */
+  padding-top: 60%;
+}
+
+
+
+.viewport {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  margin: 4%;
+  background: #333;
+}
+
+
+.sub .viewport {
+  transition: background-position 8s ease;
+  background-position: 0 0;
+  background-size: 100% auto;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.sub:hover .viewport {
+  background-position: 0 100%;
+}
+
+.sub .viewport:after {
+  background: radial-gradient(circle at right bottom, transparent 75%, rgba(255, 255, 255, 0.05) 75%, transparent);
+  bottom: 0;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+
+
+
+/* section.scroll_v .sec03 .title {
+  font-size: 50px;
+} */
+/* sec04동영상 */
+section.scroll_v .sec04 {
+  /* background: #000; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sec04 .inner {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+.sec04 h1 {
+  font-family: 'fugaz One';
+  font-size: 100px;
+  color: #F8FC27;
+}
+
+.sec04 h2 {
+  font-family: 'fugaz One';
+  font-size: 50px;
+  color: #F8FC27;
+  text-align: center;
+}
+
+.sec04 p,
+.sec04 a {
+  font-family: 'Do Hyeon';
+  font-size: 40px;
+  text-decoration: none;
+  color: black;
+}
+
+.sec04 address {
+  font-style: unset;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+/* section.scroll_v .sec04 .full {
+  width: 100%;
+  position: relative;
+  padding-bottom: 48.8%;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+section.scroll_v .sec04 .full .cover {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+}
+section.scroll_v .sec04 .full iframe,
+section.scroll_v .sec04 .full object,
+section.scroll_v .sec04 .full embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9;
+}
+.sec05 카운터
+section.scroll_v .sec05 {
+  background: #383A3F;
+}
+section.scroll_v .sec05 .slide-content {
+  padding: 20% 0 0 0;
+  display: flex;
+  width: 30%;
+  justify-content: space-between;
+}
+ */
+
+
+
+
+
+/*._2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+._2 .inner {
+    width: 1440px;
+    position: relative;
+}
+
+._2 .g1 div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+*/
