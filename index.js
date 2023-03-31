@@ -60,7 +60,13 @@ window.addEventListener('wheel', function(event) {
 });
 
 
-
+// $(document).scroll(function () {
+//     var scrolltop = $(window).scrollTop();
+//     if (scrolltop >= 10800) {
+//       counting();
+//       $(".line").addClass("gauge");
+//     }
+//   });
 
 
 
