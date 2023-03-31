@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0">
     <title>이채연 포트폴리오</title>
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/css/swiper.css">
-    <link rel="stylesheet" type="text/css" href="/index.css">
+    <link rel="stylesheet" type="text/css" href="/index/index.css">
     <link rel="stylesheet" type="text/css" media="all and (max-width: 960px)"
         href="/css/33scrollCarouselSwipermstyle.css">
 </head>
@@ -21,13 +21,16 @@
                     <h3>UX & UI WEB PUBLISHING</h3>
                 </div>
 
-                <h1>“ Hi! ” </h1>
+                <!-- <h1>“ Hi! ” </h1> -->
+                <button class="btn-1 btn-primary btn-jittery">
+                    “ Hi ! ”
+                </button>
 
             </div>
             <div class="swiper-slide sec02">
                 <h1>‘ I am...’</h1>
                 <div class="inner">
-        
+
                     <div class="g1">
                         <img src="/img/me.png" alt="#">
                         <div>
@@ -67,8 +70,15 @@
                                 <p>기획</p>
                                 <p>디자인</p>
                                 <p>퍼블리싱</p>
+                                <button type="button" class="btn btn--yellow">
+                                    <span class="btn__txt">100%</span>
+                                    <i class="btn__bg" aria-hidden="true"></i>
+                                    <i class="btn__bg" aria-hidden="true"></i>
+                                    <i class="btn__bg" aria-hidden="true"></i>
+                                    <i class="btn__bg" aria-hidden="true"></i>
+                                  </button>
                             </div>
-                            <div class="line"></div>
+                        
                             <div>
                                 <h3>Color</h3>
                                 <div class="color">
@@ -81,8 +91,9 @@
                             <div>
                                 <h3>Overview</h3>
                                 <p>기존 알라딘의 배치에서 느낀 나열만 하는 구조가 아니라,
-                                    소비자가 둘러보면서 흥미를 느끼고, 직접 참여하는 느낌을 전달하는 구성으로 메인을 구현하였습니다. 또한 포인트 컬러들은 기존 알라딘 로고색을 차용하여 기존 알라딘의
-                                    색을 잃지 않으면서 다채롭게 표현할 수 있게 되었고 배경을 어둡게 설정하여 밝은 배경 대비 활자와 아이콘등에 시선이 집중될 수 있게 했습니다.</p>
+                                    소비자가 둘러보면서 흥미를 느끼고, 직접 참여하는 느낌을 전달하는 구성으로 메인을 구현하였습니다. 또한 포인트 컬러들은 기존 알라딘 로고색을 차용하여
+                                    기존 알라딘의 색을 잃지 않으면서 다채롭게 표현할 수 있게 되었고 배경을 어둡게 설정하여 밝은 배경 대비 활자와 아이콘등에 시선이 집중될 수 있게
+                                    했습니다.</p>
                             </div>
                         </div>
                     </div>
@@ -90,39 +101,64 @@
                         <div>
                             <p>반응형</p>
                             <p>Main</p>
-                            <p>Sub 1</p>
+                            <p>Sub</p>
                         </div>
-                        <a href="https://greenmark04102.github.io/aladin/html/aladin.html" target="_blank">
-                            <div class="main">
-                                <div class="screen">
-                                    <div class="viewport n1" style="background-image:url('/img/main.JPG');">
+                        <div>
+                            <a href="https://greenmark04102.github.io/aladin/html/aladin.html" target="_blank">
+                                <div class="main">
+                                    <div class="screen">
+                                        <div class="viewport n1" style="background-image:url('/img/main.JPG');">
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                        </a>
-        
-                        <a href="https://greenmark04102.github.io/aladin/html/sub.html" target="_blank">
-                            <div class="sub">
-                                <div class="screen">
-                                    <div class="viewport n2" style="background-image:url('/img/sub.JPG');">
+                                <div class="logo"></div>
+                                <div class="leg"></div>
+                                <div class="foot"></div>
+                            </a>
+
+
+                            <a href="https://greenmark04102.github.io/aladin/html/aladin.html" target="_blank">
+                                <div class="sub">
+                                    <div class="screen">
+                                        <div class="circle"></div>
+                                        <div class="viewport n2" style="background-image:url('/img/mobile.JPG');">
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                        </a>
-        
+                            </a>
+                        </div>
+
                     </div>
                 </div>
             </div>
             <div class="swiper-slide sec04">
                 <div class="inner">
                     <div class="g1">
+
+                        <!-- <button class="btn-1 btn-primary btn-jittery">
+                            “ Here I am! ”
+                        </button> -->
                         <h1>“ Here I am! ”</h1>
                         <h2>Please Contact me</h2>
                     </div>
-        
+
                     <address>
-                        <a href="tel:010-3911-9700">010-3911-9700</a>
-                        <a href="mailto:greenmark04102@gmail.com">greenmark04102@gmail.com</a>
+                        <!-- <a href="mailto:greenmark04102@gmail.com"><button class="btn btn-primary btn-jittery">
+                                greenmark04102@gmail.com
+                            </button></a> -->
+                        <div class="centerer">
+                            <div class="wrap">
+                                <a class="call" href="mailto:greenmark04102@gmail.com">
+                                    greenmark04102@gmail.com
+                                </a>
+                            </div>
+                            <p>OR</p>
+                            <div class="wrap">
+                                <a class="call" href="tel:010-3911-9700">
+                                    010-3911-9700
+                                </a>
+                            </div>
+                        </div>
                     </address>
                 </div>
             </div>
@@ -140,11 +176,6 @@
         <div class="swiper-button-prev"></div>
     </section>
     <!-- <footer>Footer</footer> -->
-
-
-
-
-
 
 
 
