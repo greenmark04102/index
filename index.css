@@ -112,7 +112,7 @@ section.scroll_v .sec01 .btn-1 {
 }
 
 
-section.scroll_v .sec01 > h3 {
+section.scroll_v .sec01 h3 {
   font-family: 'fugaz One';
     font-size: 30px;
 }
