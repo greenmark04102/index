@@ -89,7 +89,7 @@ section.scroll_v .swiper-button-next {
   color: #222;
 }
 
-section.scroll_v .sec01 {
+.sec01 {
   /* background: #F6B352; */
   /* display: flex;
   justify-content: center;
@@ -100,31 +100,32 @@ section.scroll_v .sec01 {
   flex-direction: column;
 }
 
-section.scroll_v .sec01 h1 {
+.sec01 h1 {
   font-family: 'fugaz One';
   font-size: 100px;
 }
 
-section.scroll_v .sec01 .btn-1 {
+.sec01 .btn-1 {
   color: #F8FC27;
     position: absolute;
     bottom: 0;
 }
 
 
-section.scroll_v .sec01 h3 {
+.sec01 h3 {
   font-family: 'fugaz One';
     font-size: 30px;
 }
 
-section.scroll_v .sec01 div {
+
+.sec01 div {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-/* sec02 가로캐러셀 */
-section.scroll_v .sec02 {
+
+.sec02 {
   /* background: #F68657; */
   height: 100vh;
   /* text-align: center;
@@ -133,21 +134,21 @@ section.scroll_v .sec02 {
   margin: 0 auto;
 }
 
-section.scroll_v .sec02 .inner {
+.sec02 .inner {
   position: relative;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-section.scroll_v .sec02 h1 {
+.sec02 h1 {
   font-family: 'fugaz One';
   font-size: 100px;
   color: #F8FC27;
   padding: 150px 20px 50px 20px;
 }
 
-section.scroll_v .sec02 h2 {
+.sec02 h2 {
   font-family: 'fugaz One';
   font-size: 50px;
 }
@@ -166,7 +167,7 @@ section.scroll_v .sec02 h2 {
 
 }
 
-section.scroll_v .sec02 .g1 {
+.sec02 .g1 {
   display: flex;
   flex-direction: column;
   gap: 30px;
@@ -180,11 +181,11 @@ section.scroll_v .sec02 .g1 {
   padding-top: 10px;  
 }
 
-section.scroll_v .sec02 img {
+.sec02 img {
   width: 350px;
 }
 
-section.scroll_v .sec02 .g2 {
+.sec02 .g2 {
   display: flex;
   flex-direction: column;
   position: absolute;
@@ -205,7 +206,7 @@ section.scroll_v .sec02 .g2 {
 
 }
 
-section.scroll_v .sec03 {
+.sec03 {
   background-color: #E7E7E7;
   display: flex;
   justify-content: center;
@@ -217,41 +218,44 @@ section.scroll_v .sec03 {
   align-items: center;
 } */
 
-section.scroll_v .sec03 .inner {
+.sec03 .inner {
   width: 100%;
   flex-direction: row;
   display: flex;
 }
 
-section.scroll_v .sec03 > div {
+.sec03 > div {
   height: 1024px;
 }
 
-section.scroll_v .sec03 .side {
+.sec03 .side {
   min-width: 372px;
   width: 30%;
   height: 100vh;
   background: rgba(0, 0, 0, 0.3);
 }
-section.scroll_v .sec03 h1 {
+.sec03 h1 {
   font-size: 80px;
   color: #105333;
   font-family: 'fugaz One';
   height: 86px;
 }
-section.scroll_v .sec03 .g1 {
+
+.sec03 .g1 {
   margin: 0 auto;
   width: 248px;
   padding-top: 50px;
 }
-section.scroll_v .sec03 .g1 p {
+
+.sec03 .g1 p {
   font-size: 35px;
   color: #105333;
   font-family: 'fugaz One';
   width: 248px;
   text-align: center;
 }
-section.scroll_v .sec03 .g2 {
+
+.sec03 .g2 {
   position: absolute;
   bottom: 65px;
   display: flex;
@@ -259,7 +263,8 @@ section.scroll_v .sec03 .g2 {
   gap: 50px;
   width: 371px;
 }
-section.scroll_v .sec03 .g2 > div:first-child {
+
+.sec03 .g2 > div:first-child {
   display: flex;
   flex-direction: row;
   gap: 15px;
@@ -269,7 +274,7 @@ section.scroll_v .sec03 .g2 > div:first-child {
   height: 35px;
 }
 
-section.scroll_v .sec03 .g2 > div:first-child p {
+.sec03 .g2 > div:first-child p {
   background: rgba(255, 255, 255, 0.4);
   box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
@@ -416,7 +421,7 @@ section.scroll_v .sec03 .circle:nth-of-type(4){
   font-family: 'fugaz One';
   font-size: 30px;
 }
-.sec03 .g2 > div:nth-of-type(4) p {
+.sec03 .g2  p {
   font-family: 'Do Hyeon';
   font-size: 18px;
   line-height: 28px;
@@ -713,6 +718,7 @@ section.scroll_v .sec04 {
   flex-direction: column;
   /* justify-content: center; */
   align-items: center;
+  font-style: unset;
 }
 
 
@@ -731,8 +737,8 @@ section.scroll_v .sec04 {
 }
 
  .btn-jittery {
-  -webkit-animation: jittery 4s infinite;
-  animation: jittery 4s infinite;
+  -webkit-animation: jittery 3s infinite;
+  animation: jittery 3s infinite;
 }
 
 @keyframes jittery {

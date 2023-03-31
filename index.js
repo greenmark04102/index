@@ -1,5 +1,6 @@
 // $(":root").css("background", "#105333");
 
+
 document.body.style.backgroundColor='#105333';
 
   var swiper1 = new Swiper('.scroll_v', {
